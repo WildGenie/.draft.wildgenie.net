@@ -76,3 +76,29 @@ Headless CMS: bu seçenek sizin için içerikleri depolamanızı yönetmenizi sa
 Yazılım dili ve diğer altyapılar: yazılım ekibinizin daha önceden kullandığı dil ve altyapıları tercih etmeniz ilk önceliğiniz olmalı. Eğer ekibiniz bazı esnekliklere uygun ise elinizden geldiği kadar dil ve altyapıları topluluk desteği fazla olanlardan yana kullanmanız sizin avantajınıza olacaktır. PHP, dotnet gibi dillerde ücretsiz örnek kodlar ve takıldığınız yerde soru sorabileceğiniz kişileri daha rahat bulabilirken; Java gibi diller daha kurumsal ve profesyonel çalışmalara açık olduğu için erişebileceğiniz içerik ve destekler maliyet açısından yüksek olacaktır. Hazır frameworkleri seçerken ise bu framework ile gelen temel özelliklerin ihtiyaçlarınızı karşılayıp karşılamadığına ve ihtiyacınızı yeterli seviyede karşılamıyorsa yapının esnek olup olmadığını incelemelisiniz. Wordpress üzerine bir geliştirme yapacaksanız ihtiyaçlarınızı eklentiler olarak geliştirmeniz gerektiğinden bu yapıya hakım olmayan geliştiriciler bu seçimde zorlanacaklardır. Hazır altyapıları tercih etmemeniz halinde ise birçok güvenlik açığı ile uğraşmanız gerekebilir. Önceden aklınıza gelmeyecek birçok ihtiyaç hazır altyapılar ile size hızlı ve esnek parametrelerle sunulmuş halde olacak. Alt yapınızı kendiniz kurmayı planlamış olduğunuzda yapacağınız projede sürekli ihtiyaçlar ve geliştirmelere ihtiyaç duyup projeniz beklenen teslim tarihinin ötesine geçecektir.
 
 TODO:…
+
+## Headless CMS
+
+Headless CMS, bir web sitesinin içeriğini ve sunumunu birbirinden ayıran bir içerik yönetim sistemi türüdür. Headless CMS, içeriği bir veri tabanında depolar ve bir API aracılığıyla farklı platformlara dağıtır. Böylece, web sitesinin ön yüzünü istediğiniz gibi tasarlayabilir ve içeriği farklı cihazlara uyumlu hale getirebilirsiniz.
+
+Headless CMS’in avantajları şunlardır:
+
+* Esneklik: Web sitesinin ön yüzünü istediğiniz teknoloji ve araçlarla geliştirebilirsiniz. Ayrıca, içeriği farklı kanallara ve cihazlara kolayca adapte edebilirsiniz.
+    
+* Performans: Web sitesinin yüklenme hızı ve tepki süresi artar, çünkü sunucu tarafında render edilmesi gereken bir ön yüz katmanı yoktur. Ayrıca, içeriği önbelleğe almak ve optimize etmek için CDN gibi hizmetlerden yararlanabilirsiniz.
+    
+* Güvenlik: Web sitesinin güvenliği artar, çünkü sunucu tarafında çalışan bir ön yüz katmanı olmadığı için saldırılara karşı daha az açıktır. Ayrıca, API ile iletişim kurarken HTTPS, JWT gibi protokol ve tekniklerden yararlanabilirsiniz.
+    
+* Ölçeklenebilirlik: Web sitesinin ölçeklenebilirliği artar, çünkü içerik ve sunum katmanlarını ayrı ayrı ölçeklendirebilirsiniz. Ayrıca, bulut tabanlı headless CMS hizmetleri sayesinde altyapı yönetimiyle uğraşmanıza gerek kalmaz.
+    
+
+Headless CMS’in dezavantajları şunlardır:
+
+* Kurulum zorluğu: Web sitesini oluşturmak için hem bir headless CMS hem de bir ön yüz geliştirme ortamı kurmanız gerekir. Ayrıca, API ile iletişim kurmak için ekstra kod yazmanız gerekir.
+    
+* Ön yüz geliştirme gerekliliği: Web sitesinin ön yüzünü sıfırdan veya hazır bir framework kullanarak geliştirmeniz gerekir. Bu da teknik bilgi ve zaman gerektirir.
+    
+* Tema ve eklenti eksikliği: Headless CMS’ler, geleneksel CMS’ler gibi hazır tema ve eklentilere sahip değildir. Bu da web sitesinin tasarımını ve işlevselliğini zenginleştirmek için ekstra çaba gerektirir.
+    
+
+Headless CMS örnekleri arasında Strapi, Contentful, Prismic gibi hizmetler bulunmaktadır.
