@@ -30,7 +30,7 @@ Fakat artık yazılımcı hakkında bilgi edinmek için o kişinin GitHub sayfas
 
 1. Her şeyden önce kendinize bir GitHub hesabınıza giriş yapın. Eğer hesabınız yoksa aramıza katılmak için çok geç kalmadınız, sizi de aramıza bekliyoruz.
     
-2. Hesap isminizle aynı olmak üzere bir depo (repository) oluşturalım. Hesap isminizle bir depo oluşturmaya çalıştığınızda bunun özelleşmiş bir depo olacağı ve bu deponun içine koyacağınız [`README.md`](http://README.md) dosyasının sizin profilinizde görüneceği hakkında sizi bilgilendirecek. Proje içine `README`dosyası ekle demeyi unutma. Unutursan ya da daha detaylı bir yapı oluşturmak istersen bunları da göstereceğiz.
+2. Hesap isminizle aynı olmak üzere bir depo (repository) oluşturalım. Hesap isminizle bir depo oluşturmaya çalıştığınızda bunun özelleşmiş bir depo olacağı ve bu deponun içine koyacağınız `README.md` dosyasının sizin profilinizde görüneceği hakkında sizi bilgilendirecek. Proje içine `README`dosyası ekle demeyi unutma. Unutursan ya da daha detaylı bir yapı oluşturmak istersen bunları da göstereceğiz.
     
 3. `README`dosyasını düzenle dedikten sonra istediğiniz gibi içeriğinizi yazarak kaydedebilirsiniz. İçeriğiniz artık profil sayfasında görünür halde olacak.
     
@@ -75,7 +75,7 @@ Bu bağlantılara göz gezdirmek isteyebilirsin:
     
 6. Göstermek istediğimiz GitHub istatistiklerini seçelim
     
-7. Oluştur dedikten sonra içeriği kopyalayıp kendi [`readme.md`](http://readme.md) dosyamızın içeriğine yapıştırıp kaydedelim.
+7. Oluştur dedikten sonra içeriği kopyalayıp kendi `readme.md` dosyamızın içeriğine yapıştırıp kaydedelim.
     
 
 Benzer işlevleri yapan daha birçok proje var. Adımlar genelde birbirine benziyor. Bazı içerikler için `GitHub Action` kullanmak gerekebilir. Bonus olarak profilimize bir yılan oyunu ekleyebiliriz. Ama önce Git ile ilgili daha fazla şey öğrenelim.
@@ -96,9 +96,9 @@ Markdown etiketleri şunlardır:
     
 6. Sıralı liste: Satırları `1.`, `2.`, `3.` gibi sayılarla başlatarak sıralı liste oluşturabilirsiniz.
     
-7. Bağlantılar: `[Bağlantı metni](`[`https://bağlantı-adresi.com`](https://bağlantı-adresi.com)`)` şeklinde bağlantı ekleyebilirsiniz.
+7. Bağlantılar: `[Bağlantı metni](https://bağlantı-adresi.com)` şeklinde bağlantı ekleyebilirsiniz.
     
-8. Resimler: `![Resim açıklaması](`[`https://resim-adresi.com`](https://resim-adresi.com)`)` şeklinde resim ekleyebilirsiniz.
+8. Resimler: `![Resim açıklaması](https://resim-adresi.com)` şeklinde resim ekleyebilirsiniz.
     
 9. Kod: Tek satırlık veya satır içi kod için `kod` kullanabilirsiniz. Çok satırlı kod için ise üç tane \`\`\` işareti ile başlayıp bitirebilirsiniz.
     
@@ -132,21 +132,21 @@ Git kurulumu ile ilgili bilgiyi [Git Guides - install git (](https://github.com/
     
 2. Komut istemcisini açıp projeyi oluşturacağımız klasöre gidin
     
-3. `git clone` [`https://github.com/<kullanici>/<depoismi>.git`](https://github.com/<kullanici>/<depoismi>.git) komutu ile projenin kopyasını oluşturun
+3. `git clone` [`https://github.com/<kullanici>/<depoismi>.git`](https://github.com/%3Ckullanici%3E/%3Cdepoismi%3E.git) komutu ile projenin kopyasını oluşturun
     
 4. `cd depoismi` komutuyla deponun oluştuğu klasöre gidebilir sonra `ls` veya `dir` komutuyla klasörü listeleyebilirsiniz
     
 5. Dosyalarınızı ve projenizi düzenlemek için editör veya IDE’ye ihtiyaç duyabilirsiniz. Bilgisayarınızda Visual Studio Code yüklü ise `code .` komutuyla bulunduğunuz klasörü Code aracılığıyla açabilirsiniz
     
-6. Örnek olarak [`benioku.md`](http://benioku.md) dosyası oluşturup kaydedelim
+6. Örnek olarak `benioku.md` dosyası oluşturup kaydedelim
     
-7. Bazı git işlevlerini yapılan işlemlerde bazı bilgiler saklamaktadır. Bu bilgilerin başında kullanıcı ismi ve e-posta adresi yer almaktadır. `git config --global` [`user.name`](http://user.name) `"Bilgehan Zeki"` ve `git config --global` [`user.email`](http://user.email) `"`[`info@example.com`](mailto:info@example.com)`"` komutlarını kullanarak bu bilgileri kaydedelim. Aksi taktirde komutları kullanırken hata alabilirsiniz.
+7. Bazı git işlevlerini yapılan işlemlerde bazı bilgiler saklamaktadır. Bu bilgilerin başında kullanıcı ismi ve e-posta adresi yer almaktadır. `git config --global user.name "Bilgehan Zeki"` ve `git config --global user.email "info@example.com"` komutlarını kullanarak bu bilgileri kaydedelim. Aksi taktirde komutları kullanırken hata alabilirsiniz.
     
 8. `git add .` komutuyla eklenen ve değiştirilen dosyaları işaretlememiz, `git commit -m "beni oku dosyası eklendi"` komutu ile de yaptığımız değişikliklere açıklama vererek yerel depoya kaydetmemiz gerekmekte. Git sürüm kontrol sistemi dağıtık bir yapıya sahiptir. Yapılan değişiklikler sadece yerel depomuzda bulunabileceği gibi birden çok uzak depoda da saklanabilir ve işlem görebilir
     
 9. `git push` komutuyla yaptığımız değişiklik uzak depoya yani GitHub’a gönderimini sağlamış olacağız. Bu komutu kullandığımızda hesap bilgilerimizi girmemiz gerekecektir
     
-10. GitHub üzerindeki depoda bazı değişiklikler yapalım. Örneğin `[`[`benioku.md`](http://benioku.md)`](`[`http://benioku.md`](http://benioku.md)`)` dosyasının içeriğini düzenleyip kaydedelim. Mevcut değişikliği yerel depomuza çekmek için `git pull` komutunu kullanmamız gerekmekte
+10. GitHub üzerindeki depoda bazı değişiklikler yapalım. Örneğin `[benioku.md](http://benioku.md)` dosyasının içeriğini düzenleyip kaydedelim. Mevcut değişikliği yerel depomuza çekmek için `git pull` komutunu kullanmamız gerekmekte
     
 
 # Bonus: Yılan Oyunu
@@ -157,7 +157,7 @@ GitHub depolarınızı depolamanın yanı sıra birçok özellik sunmakta. Bunla
     
 2. Daha sonra örnek depoyu [`https://github.com/Platane/Platane`](https://github.com/Platane/Platane) adresinden indirip içindeki `.github` klasörünü kendi repomuzun içine kopyalayalım
     
-3. Örnek proje içindeki [`readme.md`](http://readme.md) dosyasının içeriğindeki `platane/platane` kısımlarını kendi kullanıcı adımızla değiştirip kendi [`readme.md`](http://readme.md) dosyasının içine ekleyelim
+3. Örnek proje içindeki `readme.md` dosyasının içeriğindeki `platane/platane` kısımlarını kendi kullanıcı adımızla değiştirip kendi `readme.md` dosyasının içine ekleyelim
     
 4. `git add .`, `git commit -m "Yılan animasyonu eklendi"`, `git push` komutlarını sırasıyla çağırıp uzak repoyu güncelleyelim
     
