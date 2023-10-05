@@ -132,7 +132,7 @@ Git kurulumu ile ilgili bilgiyi [Git Guides - install git (](https://github.com/
     
 2. Komut istemcisini açıp projeyi oluşturacağımız klasöre gidin
     
-3. `git clone` [`https://github.com/<kullanici>/<depoismi>.git`](https://github.com/%3Ckullanici%3E/%3Cdepoismi%3E.git) komutu ile projenin kopyasını oluşturun
+3. `git clone` `https://github.com/<kullanici>/<depoismi>.git` komutu ile projenin kopyasını oluşturun
     
 4. `cd depoismi` komutuyla deponun oluştuğu klasöre gidebilir sonra `ls` veya `dir` komutuyla klasörü listeleyebilirsiniz
     
@@ -146,7 +146,7 @@ Git kurulumu ile ilgili bilgiyi [Git Guides - install git (](https://github.com/
     
 9. `git push` komutuyla yaptığımız değişiklik uzak depoya yani GitHub’a gönderimini sağlamış olacağız. Bu komutu kullandığımızda hesap bilgilerimizi girmemiz gerekecektir
     
-10. GitHub üzerindeki depoda bazı değişiklikler yapalım. Örneğin `[benioku.md](http://benioku.md)` dosyasının içeriğini düzenleyip kaydedelim. Mevcut değişikliği yerel depomuza çekmek için `git pull` komutunu kullanmamız gerekmekte
+10. GitHub üzerindeki depoda bazı değişiklikler yapalım. Örneğin `[benioku.md](benioku.md)` dosyasının içeriğini düzenleyip kaydedelim. Mevcut değişikliği yerel depomuza çekmek için `git pull` komutunu kullanmamız gerekmekte
     
 
 # Bonus: Yılan Oyunu
